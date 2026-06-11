@@ -1,0 +1,2 @@
+# Predictive-Logistics-System-for-Risk-Mitigation-Shipment-Delay-
+Developed a shipment delay prediction system to reduce logistics risks and improve delivery performance. Built and optimized an XGBoost model using SMOTE and GridSearchCV, achieving 98% recall for delayed shipments. Identified key delay factors through feature analysis, enabling proactive planning, risk mitigation, and operational efficiency.
