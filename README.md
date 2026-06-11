@@ -1,87 +1,83 @@
 # Predictive Logistics System for Risk Mitigation (Shipment Delay Prediction)
 
 ## Project Overview
-This project uses Machine Learning to predict shipment delays and help logistics teams identify high-risk deliveries before they occur. The system enables proactive decision-making, improves delivery performance, and reduces operational risks within supply chain networks.
+
+Developed a Machine Learning-based logistics risk management system that predicts shipment delays and enables proactive intervention before delivery disruptions occur. The solution helps organizations optimize supply chain operations, improve delivery performance, and reduce revenue loss caused by delayed shipments.
 
 ## Problem Statement
-Delayed shipments can result in customer dissatisfaction, increased operational costs, and revenue loss. The objective of this project is to build a predictive model capable of identifying shipments that are likely to be delayed, allowing businesses to take preventive actions.
+
+Shipment delays can negatively impact customer satisfaction, operational efficiency, and business profitability. The objective of this project is to accurately identify high-risk shipments and provide actionable insights for mitigating delivery risks.
 
 ## Objectives
-- Predict shipment delays using historical logistics data.
-- Identify key factors contributing to delivery delays.
-- Improve supply chain efficiency through data-driven insights.
-- Reduce business risks associated with late deliveries.
 
-## Dataset Features
-The dataset contains shipment-related information including:
-- Warehouse details
-- Product cost
-- Shipment weight
-- Customer purchase history
-- Customer care calls
-- Discount offered
-- Delivery status
+* Predict shipment delays using historical logistics data.
+* Identify key factors contributing to delivery delays.
+* Improve supply chain efficiency through predictive analytics.
+* Enable proactive decision-making and risk mitigation.
 
 ## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- XGBoost
-- SMOTE
-- GridSearchCV
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* XGBoost
+* SMOTE
+* GridSearchCV
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
 ## Methodology
+
 1. Data Cleaning and Preprocessing
-2. Missing Value Handling
+2. Missing Value Imputation
 3. Feature Engineering
 4. Class Imbalance Handling using SMOTE
 5. Model Training using XGBoost
-6. Hyperparameter Tuning with GridSearchCV
+6. Hyperparameter Optimization using GridSearchCV
 7. Feature Importance Analysis
-8. Model Evaluation
+8. Model Evaluation and Performance Assessment
 
 ## Model Performance
-### Final Model: XGBoost
 
-| Metric | Value |
-|----------|----------|
-| Accuracy | 67.59% |
-| Recall (Delayed Shipments) | 98% |
-| Recall (On-Time Shipments) | 47% |
+| Metric                     | Value  |
+| -------------------------- | ------ |
+| Accuracy                   | 67.59% |
+| Recall (Delayed Shipments) | 98%    |
+| Recall (On-Time Shipments) | 47%    |
 
-The model prioritizes identifying delayed shipments, ensuring that potential delivery risks are detected early.
+The model prioritizes detecting delayed shipments, ensuring potential delivery risks are identified early and addressed proactively.
 
 ## Key Findings
-Feature importance analysis revealed that the following factors significantly influence shipment delays:
 
-- Discount Offered
-- Shipment Weight
-- Prior Purchases
-- Product Cost
-- Customer Care Calls
+The most influential factors affecting shipment delays include:
+
+* Discount Offered
+* Shipment Weight
+* Prior Purchases
+* Product Cost
+* Customer Care Calls
 
 ## Business Impact
-- Enables proactive shipment monitoring.
-- Reduces operational and revenue losses.
-- Improves logistics planning and resource allocation.
-- Supports data-driven supply chain decision-making.
-- Enhances customer satisfaction through better delivery management.
+
+* Improved shipment risk visibility.
+* Reduced operational and revenue losses.
+* Enhanced logistics planning and resource allocation.
+* Supported data-driven supply chain decision-making.
+* Increased customer satisfaction through better delivery management.
 
 ## Future Enhancements
-- Real-time shipment delay prediction.
-- Integration with logistics management systems.
-- Inclusion of weather and traffic data.
-- Deployment as a web application for operational use.
+
+* Real-time shipment delay prediction.
+* Integration with logistics management platforms.
+* Inclusion of external factors such as weather and traffic data.
+* Deployment as a scalable web-based application.
 
 ## Repository Structure
 
-```
+```text
 Shipment-Delay-Prediction/
-│
 ├── Shipment_Delay_Prediction.ipynb
 ├── data.csv
 ├── Shipment Delay Prediction.docx
@@ -91,6 +87,7 @@ Shipment-Delay-Prediction/
 
 ## Author
 
-Penithalaxmi Nallapu
-Bachelor of Engineering in Artificial Intelligence and Machine Learning
+**Penithalaxmi Nallapu**
+B.E. Artificial Intelligence and Machine Learning
 Chaitanya Bharathi Institute of Technology (CBIT)
+
